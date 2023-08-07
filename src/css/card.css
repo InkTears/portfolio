@@ -1,0 +1,15 @@
+.projet-desc {
+    white-space: pre-line;
+}
+.projet-cover{
+    background-repeat: no-repeat;
+    position: relative;
+}
+.projet-cover::before{
+    background-color: floralwhite;
+    display: block;
+    content: '';
+    position: absolute;
+    height: inherit;
+    width: inherit;
+}
