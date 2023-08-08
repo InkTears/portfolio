@@ -14,7 +14,7 @@ export default function Footer() {
                 <Image centered size='small' src={logo} alt="Portfolio, Egor Khaybulov" />
                 <Divider inverted section/>
                 <List horizontal inverted divided link size='small'>
-                    <List.Item as='a' href='/sitemap'>
+                    <List.Item as='a' href='/sitemap.xml'>
                         Site Map
                     </List.Item>
                     <List.Item>
