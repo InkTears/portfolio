@@ -2,8 +2,13 @@ import '../css/error.css'
 import Header2 from "../components/Header";
 import { Link } from 'react-router-dom';
 import {Container, Header} from "semantic-ui-react";
+import {useEffect} from "react";
 
 export default function ErrorPage() {
+    useEffect(() => {
+        document.title = "Page d'erreur";
+        document.getElementsByTagName("META")[3].content="Développeur web junior React, PHP, JavaScript";
+    }, []);
     return (
         <div className='error'>
             <Header2 />

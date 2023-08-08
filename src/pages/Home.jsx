@@ -4,9 +4,13 @@ import About from '../components/About'
 import Work from '../components/Work'
 import Footer from '../components/Footer'
 import {Divider,Header} from 'semantic-ui-react'
-import React from "react";
+import React, { useEffect} from "react";
 
 export default function Home() {
+    useEffect(() => {
+        document.title = "Portfolio de Egor Khaybulov";
+        document.getElementsByTagName("META")[3].content="Développeur web junior React, PHP, JavaScript";
+    }, []);
     return (
         <div className='home'>
             <Header2 />

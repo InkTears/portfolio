@@ -7,19 +7,23 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home />
-    },
-    {
-        path: "*",
-        element: <ErrorPage />
+        element: <Home />,
+        errorElement: <ErrorPage />,
     },
     {
       path: "projets/:id",
-      element: <Projets />
+      element: <Projets />,
+        errorElement: <ErrorPage />,
     },
     {
         path: "sitemap",
-        element: <SiteMap />
+        element: <SiteMap />,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: "*",
+        element: <ErrorPage />,
+        errorElement: <ErrorPage />,
     },
 ]);
 
