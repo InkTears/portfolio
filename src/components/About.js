@@ -19,7 +19,7 @@ export default function About() {
                     <Grid.Column width={10}>
                         <Container fluid text>
                             <p>
-                                Passionné par l'information, j'ai baigné dans les ordinateurs depuis mon adolescence. J'ai assemblé mon premier ordinateur à l'âge de 14 ans et directement j'ai été confronté à des problèmes d'optimisation des performances et de compatibilité que j'ai résolu grâce aux communautés d'internet.<br />
+                                Passionné par l'informatique, j'ai baigné dans les ordinateurs depuis mon adolescence. J'ai assemblé mon premier ordinateur à l'âge de 14 ans et directement j'ai été confronté à des problèmes d'optimisation des performances et de compatibilité que j'ai résolu grâce aux communautés d'internet.<br />
                                 Je me suis orienté d'abord vers un bac pro en électrotechnique, dans lequel j'ai découvert le monde du travail grâce à de multiples stages dans des secteurs variés (bâtiments, industriels et tertiaire), malgré un fort intérêt je ne me voyais pas construire une carrière dans ce domaine.<br />
                                 <br />
                                 C'est pourquoi j'ai décidé de me réorienter vers ma passion de toujours qui est l'informatique et de bâtir une carrière dans le développement web.<br />
