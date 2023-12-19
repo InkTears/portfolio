@@ -6,7 +6,7 @@ import {Grid, Divider, Container} from 'semantic-ui-react'
 export default function Work() {
     return (
         <Container className='work'>
-            <Grid columns={3}>
+            <Grid columns={3} doubling stackable >
                 {datas.map(data => {
                     return (
                         <Grid.Column>
